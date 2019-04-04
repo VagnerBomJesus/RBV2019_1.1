@@ -9,9 +9,10 @@ Bumper Sensors
 
 <h5>. . .<br>
 value = read the value of the line sensor;<br>
-  if(value < threshold) { //Is a white line. <<brmove forward during a very brief moment just to pass by the white line;
-    totalLines = totalLines + 1;
-    display totalLines; 
-  }
-. . .
+  if(value < threshold) { //Is a white line. <br>
+  move forward during a very brief moment just to pass by the white line;<br>
+    totalLines = totalLines + 1;<br>
+    display totalLines; <br>
+  }<br>
+. . .<br>
  </h5>
